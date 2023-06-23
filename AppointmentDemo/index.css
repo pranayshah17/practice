@@ -1,0 +1,14 @@
+.nav-link{
+    color:black;
+}
+.navbar{
+    background-color: black;
+}
+.navbar-brand{
+    color: red;
+}
+.para{
+    padding-top: 100px;
+    height: 200px;
+    width: auto;
+}

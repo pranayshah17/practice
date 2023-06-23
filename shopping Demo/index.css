@@ -1,0 +1,663 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.header-info {
+    height: 40px;
+    /* background-color: black; */
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 100%;
+    justify-content: flex-start;
+    background-color: #000;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+
+.header-left {
+    display: flex;
+    padding-right: 350px;
+    justify-content: flex-end;
+}
+
+.header-right {
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 250px;
+    /* padding-right: 300px; */
+}
+
+.header-info li {
+    list-style: none;
+    font-size: 12px;
+}
+
+.header-right-item a {
+    font-family: 'Raleway';
+}
+
+.header-info a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 12px;
+    font-family: 'Raleway';
+}
+
+.header-left-item {
+    display: flex;
+    gap: 20px;
+    justify-content: flex-end;
+}
+
+.header-right-item {
+    display: flex;
+    gap: 20px;
+    justify-content: flex-end;
+}
+
+li.lan {
+    color: #a1a1a1;
+}
+
+.cart {
+    position: relative;
+}
+
+.cart-items {
+    color: #fff;
+    font-family: 'Merriweather';
+    font-size: 10px;
+    border-radius: 50%;
+    background: #ea5748;
+    width: 23px;
+    height: 23px;
+    line-height: 23px;
+    text-align: center;
+    position: absolute;
+    top: 0px;
+
+}
+
+.header-right-item a::after {
+    content: "|";
+    color: #606060;
+    padding: 0 10px;
+}
+
+.header-right-item a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 12px;
+    font-family: 'Raleway'
+}
+
+.below-header li {
+    list-style: none;
+}
+
+.below-header img {
+    padding-left: 15px;
+}
+
+.below-header .cart {
+    align-items: center;
+    font-weight: 600;
+    display: inline-block;
+    padding-left: 50px;
+    padding-bottom: 10px;
+}
+
+.below-header ul {
+    display: flex;
+    grid-template-columns: repeat(3, 1fr);
+    /* padding: 30px 0; */
+    text-align: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.below-header li input[type="text"] {
+    border: 1px solid #e4e4e4;
+    padding: 10px;
+    font-family: 'Merriweather', serif;
+    font-style: italic;
+    color: #424242;
+    font-size: 12px;
+    width: 250px;
+    background: #f7f7f7;
+
+}
+
+.search {
+    position: relative;
+
+}
+
+.search-icon {
+    position: absolute;
+    top: 50%;
+
+}
+
+.below-header .form {
+    padding-left: 260px;
+    width: 40%;
+    justify-content: flex-end;
+}
+
+.below-header .logo {
+    padding-left: 48px;
+    width: 20%;
+}
+
+.below-header .cart {
+    padding-right: 200px;
+    width: 40%;
+}
+
+.menu-border {
+    border-top: 1px solid #e4e4e4;
+}
+
+.below-header {
+    padding: 30px 0;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu li {
+    list-style: none;
+    padding: 18px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: black;
+    font-family: 'Noticia Text', serif;
+    font-size: 14px;
+}
+
+a.home {
+    color: #ea5748;
+}
+
+.images {
+    display: flex;
+    justify-content: center;
+    gap: 22px;
+    padding: 70px;
+    position: relative;
+    padding-right: 20px;
+}
+
+.images .img1:hover .right-arr {
+    background-color: #ea5748;
+}
+
+.img1,
+.img2,
+.img3 {
+    position: relative;
+    width: 390px;
+
+}
+
+.text {
+    position: absolute;
+    top: 50%;
+    margin-top: -60px;
+    text-align: center;
+    width: 100%;
+    color: white;
+}
+
+.text p {
+    padding-bottom: 15px;
+    color: #fff;
+    font-size: 18px;
+    font-style: italic;
+    font-family: 'Merriweather';
+}
+
+.text h1 {
+    color: #fff;
+    font-size: 30px;
+    font-family: 'Raleway';
+    font-weight: bold;
+    margin: 0;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+h3 {
+    font-family: 'Noticia Text';
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 18px;
+}
+
+span.right-arr {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+    text-align: center;
+    color: #c2c3b5;
+    border-radius: 50%;
+    background: #fff;
+    margin-left: 10px;
+}
+
+.heading-info {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.heading-info li {
+    list-style: none;
+    padding: 10px;
+}
+
+.heading-info a {
+    text-decoration: none;
+    color: #919191;
+    font-size: 20px;
+    font-family: 'Noticia Text';
+    font-weight: bold;
+    text-transform: uppercase;
+    display: block;
+}
+
+.active {
+    color: #000 !important;
+}
+
+.divider {
+    /* padding: 1px; */
+    font-size: 13px;
+    color: #919191;
+}
+
+.collection {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-content: center;
+    /* gap: 10px; */
+    row-gap: 20px;
+    /* padding: 250px; */
+
+}
+
+.main-sec img {
+    width: 100%;
+}
+
+.collection li {
+    list-style: none;
+    width: 290px;
+    height: auto;
+    position: relative;
+    opacity: 1;
+
+}
+
+.collection-main {
+    padding-right: 150px;
+    padding-left: 250px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.collection img {
+    width: 100%;
+}
+
+.collection h4 {
+    text-align: center;
+    padding: 10px;
+}
+
+.coll-text p {
+    text-align: center;
+}
+
+.main-sec {
+    background-color: #f7f7f7;
+    padding: 120px;
+}
+
+.coll-text p {
+    color: #ea5748;
+}
+
+.coll-text {
+    padding: 20px;
+}
+
+.mid-text {
+    transition: .5s ease;
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    opacity: 0;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 77%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: rgba(0, 0, 0, .4);
+}
+
+.collection li:hover .overlay {
+    opacity: 1;
+}
+
+.mid-text p {
+    font-size: 15px;
+    margin-top: 15px;
+    color: #fff;
+    font-family: 'Merriweather';
+    font-style: italic;
+    display: block;
+}
+
+.mid-text button {
+    height: 40px;
+    width: 140px;
+    background-color: #ea5748;
+    border: none;
+    color: white;
+    margin-bottom: 10px;
+}
+
+.collection li:hover .mid-text {
+    opacity: 1;
+}
+
+.collection li:hover .coll-text {
+    background-color: white;
+}
+
+.mid-text a {
+    text-decoration: none;
+    font-size: 16px;
+    color: #f7f7f7;
+    /* padding: 8px; */
+    padding-bottom: 12px;
+}
+
+.mid-text i {
+    font-size: 12px;
+}
+
+.mid-text a:hover {
+    color: #ea5748;
+}
+
+.shipping {
+    padding: 60px;
+}
+
+.shipping h1 {
+    text-align: center;
+    font-family: 'Playfair Display';
+    font-size: 35px;
+    font-weight: bold;
+    font-style: italic;
+    color: #ea5748;
+    text-align: center;
+    margin: 0;
+}
+
+.shipping span {
+    color: #000;
+}
+
+.shipping p {
+    text-align: center;
+    padding-top: 15px;
+    font-family: 'Playfair Display';
+    font-size: 18px;
+    color: #000;
+    margin: auto;
+    width: 16%;
+    background-color: white;
+}
+
+.mid-border {
+    border-top: 1px solid #cac4c4;
+    width: 31%;
+    margin: -10px auto;
+    z-index: -1;
+    display: block;
+    position: absolute;
+    left: 653px;
+}
+
+.blog-sec {
+    background-color: #f7f7f7;
+}
+
+.blog-sec h1 {
+    text-align: center;
+    padding: 40px;
+}
+
+.blog-images {
+    justify-content: center;
+    display: flex;
+    gap: 25px;
+    width: 100%;
+    padding-bottom: 70px;
+}
+
+.blog-images h4 {
+    text-align: center;
+    padding: 15px;
+    font-size: 15px;
+
+}
+
+hr {
+    width: 31%;
+    margin: auto;
+}
+
+.blog-images p {
+    text-align: center;
+    font-size: 16px;
+    color: #6b6b6b;
+    margin: 0;
+    line-height: 22px;
+    font-family: 'Merriweather';
+    padding-top: 20px;
+}
+
+.blog-img {
+    text-align: center;
+    position: relative;
+}
+
+.calender {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: #000;
+    padding: 10px;
+
+}
+
+.calender p {
+    color: white;
+    padding-bottom: 0px;
+
+}
+
+.calender span {
+    color: white;
+    font-size: 12px;
+}
+
+.blog-img:hover .calender {
+    background-color: #ea5748;
+}
+
+.blog-img:hover h4 {
+    color: #ea5748;
+}
+
+.blog-border {
+    border-top: 1px solid black;
+    width: 31%;
+    margin: -10px auto;
+    z-index: -1;
+    display: block;
+    position: absolute;
+    left: 653px;
+}
+
+.blog-sec .divider {
+    display: inline-block;
+    font-size: 22px;
+    color: #919191;
+
+}
+
+.more-items {
+    padding: 100px;
+}
+
+.more-items h1 {
+    text-align: center;
+    padding-bottom: 20px;
+    font-size: 30px;
+}
+
+.more-items p {
+    text-align: center;
+}
+
+.more-items button {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+/* footer section */
+.footer {
+    background-color: #000;
+
+}
+
+.footer-content {
+    display: inline-grid;
+    grid-template-columns: repeat(4, 1fr);
+    padding-top: 80px;
+    margin-left: 370px;
+    margin-right: 100px;
+
+
+}
+
+.footer-content h1 {
+    font-size: 18px;
+    font-family: 'Noticia Text';
+    text-transform: uppercase;
+    border-bottom: 1px solid #2a2a2a;
+    padding-bottom: 18px;
+    margin-bottom: 18px;
+    margin-top: 0;
+    color: #fff;
+}
+
+.footer-content p {
+    font-size: 18px;
+    color: #6b6b6b;
+    margin: 0;
+    line-height: 22px;
+    font-family: 'Merriweather';
+    padding: 6px;
+
+}
+
+.footer-content a {
+    text-decoration: none;
+    color: #6b6b6b;
+}
+
+.footer-content li {
+    color: #6b6b6b;
+    padding: 8px;
+    font-size: 15px;
+    padding-left: 15px;
+}
+
+.footer-content ul {
+    padding: 0px 15px;
+}
+
+.footer-content.news {
+    padding-top: 15px;
+}
+
+.footer-content h2 {
+    color: #fff;
+    font-size: 18px;
+    font-family: 'Noticia Text';
+    text-transform: uppercase;
+    margin-top: 20px;
+
+}
+
+.email {
+    padding-top: 20px;
+}
+
+.email input[type="text"] {
+    font-size: 12px;
+    font-family: 'Merriweather';
+    font-style: italic;
+    color: #b2b2b2;
+    border: 1px solid #2a2a2a;
+    width: 70%;
+    padding: 12px;
+    background: transparent;
+}
+
+.copy-right {
+    color: #6b6b6b;
+    padding-left: 370px;
+    padding-top: 50px;
+    padding-bottom: 70px;
+    font-size: 16px;
+    font-family: 'Merriweather';
+}
+
+.footer-content .fa {
+    padding-right: 10px;
+}

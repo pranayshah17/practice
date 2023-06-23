@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        /* img {
+            float: left;
+        }
+
+        p {
+            clear: left;
+        } */
+        img {
+            float: right;
+        }
+
+        .img1 {
+            margin-left: auto;
+            margin-right: auto;
+            display: block;
+        }
+
+        .img2 {
+            /* margin-left: auto;
+            margin-right: auto; */
+            display: block;
+            position: absolute;
+            left: 200px;
+        }
+
+        .animation {
+            height: 100px;
+            width: 200px;
+            background-color: red;
+            background-image: none;
+            box-shadow: none;
+            animation-name: example;
+            animation-duration: 2s;
+
+        }
+
+        /* @keyframes example {
+            from {
+                background-color: red;
+            }
+
+            to {
+                background-color: yellow;
+            }
+        } */
+
+        @keyframes example {
+            0% {
+                background-color: yellow;
+                height: 150px;
+            }
+
+            25% {
+                background-color: blue;
+                height: 200px;
+            }
+
+            50% {
+                background-color: green;
+                height: 250px;
+            }
+
+            100% {
+                background-color: gray;
+                height: 300px;
+            }
+        }
+
+
+        /* div {
+            border: 2px solid black;
+            padding: 70px 0;
+            text-align: center;
+            background-image: repeating-conic-gradient(orange 10%, green 20%);
+            width: 70%;
+            box-shadow: 2px 2px 5px red;
+        } */
+
+        h1 {
+            text-shadow: 2px 2px 5px red;
+        }
+    </style>
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- <img src="Images/img.jpg" height="200px" width="200px" alt="">
+    <p> Lorem, ipsum dolor sit amet consectetur
+        adipisicing elit. Adipisci voluptatibus
+        obcaecati sunt, facilis, autem
+        dolore quia debitis consequuntur ipsa, cupiditate illum inventore exercitationem voluptatem expedita nesciunt
+        mollitia architecto a asperiores! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iusto explicabo
+        tempora aperiam sapiente aspernatur, illum magni voluptatibus velit. Unde, expedita velit inventore consequatur
+        accusantium architecto aspernatur iste delectus ad omnis?
+    </p> -->
+
+    <!-- <div>
+        <img src="Images/img.jpg" class="img1" height="200px" width="200px" alt="">
+    </div>
+    <img src="Images/img.jpg" class="img2" height="200px" width="200px" alt=""> -->
+    <div>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis nemo aliquid molestias! Eveniet quasi
+            dolorum quod nam officia laudantium animi ipsum officiis pariatur molestiae quidem, aliquam sit
+            reprehenderit soluta voluptatibus?</p>
+    </div>
+
+    <h1>Hello World</h1>
+    <div class="animation">
+
+    </div>
+</body>
+
+</html>
